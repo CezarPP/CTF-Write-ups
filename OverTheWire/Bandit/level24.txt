@@ -1,0 +1,3 @@
+./level24.sh | nc localhost 30002
+
+pass for 25: uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG

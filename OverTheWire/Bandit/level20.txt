@@ -1,0 +1,9 @@
+# ./suconnect 
+# Usage: ./suconnect <portnumber>
+# This program will connect to the given port on localhost using TCP. If it receives the correct password from the other side, the next password is transmitted back.
+# this is what their program does
+# so we have to start a socket listening on the other side connect to it using the exec and send the pass from the listening side
+$ nc -lvp 8888
+# l for listening, v for verbose, p for port
+
+pass for 21: gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr

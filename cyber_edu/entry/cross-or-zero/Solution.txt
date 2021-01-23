@@ -1,0 +1,9 @@
+There is the following string in the code:
+dHNkdktTAVUHAABUA1VWVgIHBAlSBAFTBAMFUwECAgcAAAFWAFUFCFMACFFUAwQAVgBSBwQJBVZTAFYGCQYHVQABB1IJTQ
+
+I used some magic on cyberchef. If you decode it from base64 and used the brute force XOR option you get the flag
+The hint should have gave it away, but for me it didn't. The key for the XOR encryption is the character '0'.
+
+What I learned:
+	some python functions and concepts while analizying the programm
+	xor encryption (Google it! It's good stuff)

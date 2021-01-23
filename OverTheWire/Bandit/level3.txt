@@ -1,0 +1,7 @@
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+with password from level 2
+cd inhere
+ls -la
+cat .hidden
+pass: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+

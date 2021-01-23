@@ -1,0 +1,6 @@
+# use diff - compares files line by line
+# still have to log in while still logged in the previous level
+# ...but still can't log in because of a modified .bashrc file which logs you out automatically
+
+password: kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+

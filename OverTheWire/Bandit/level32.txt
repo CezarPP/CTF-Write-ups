@@ -1,0 +1,5 @@
+# we have to escape an uppercase shell
+$ $0
+# $0 is the name of the script ($1 would be the first argument, $2 the second... {$10} the tenth, ${11}...)
+
+pass for 33: c9c3199ddf4121b10cf581a98d51caee

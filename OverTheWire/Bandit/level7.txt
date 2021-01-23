@@ -1,0 +1,4 @@
+$ ssh bandit7@bandit.labs.overthewire.org -p 2220
+with password from level6
+$ cat data.txt | grep millionth
+pass: cvX2JJa4CFALtqS87jk27qwqGhBM9plV

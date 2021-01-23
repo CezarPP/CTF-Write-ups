@@ -1,0 +1,6 @@
+# we cat the cronjob for bandit23 from /etc/cron.d, we see it runs /urs/bin/cronjob_bandit23.sh
+# we cat that and we see what it does and reverse engeneer it, name of our file is given by:
+$ echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+/tmp/(the output of that command)
+
+pass for level23: jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n

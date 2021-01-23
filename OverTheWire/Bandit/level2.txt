@@ -1,0 +1,5 @@
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+with password from level1
+cat "spaces in this filename" with quotes
+Avoid quotes in filenames for they might be misinterpreted.
+pass: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK

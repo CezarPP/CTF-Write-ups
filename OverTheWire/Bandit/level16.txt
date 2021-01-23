@@ -1,0 +1,7 @@
+$ nmap -p31000-32000 localhost
+# scans for open ports between 31000 and 32000
+$ openssl s_client -connect localhost:31790
+# connects using ssl
+# we receive a private key in level16.key
+# to connect to the next level we have to use ssh -i with our private key while still logged into the lv16 acc
+

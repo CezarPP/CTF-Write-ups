@@ -1,0 +1,11 @@
+$ git branch
+# see current branch
+$ git branch -a
+# see all branches
+$ git checkout branch_name
+# see that branch
+$ git grep password
+# seaches for password
+$ git log -p
+# see the changes for all logs
+pass for 30: 5b90576bedb2cc04c86a9e924ce42faf

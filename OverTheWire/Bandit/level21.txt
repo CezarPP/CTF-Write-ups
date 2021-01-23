@@ -1,0 +1,7 @@
+$ crontab -e 
+# this would edit a crontab, but we don't have the permissions
+# * in a crontab means every (for minute hour etc)
+# in /etc/cron.d we find a program being run every minute /urs/bin/cronjob_bandit22.sh
+# we cat the program and we see that it pasted the pass for bandit22 into /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+# then we cat that
+pass for 22: Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI

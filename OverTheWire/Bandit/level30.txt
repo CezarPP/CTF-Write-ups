@@ -1,0 +1,9 @@
+# there are multiple ways to do this
+$ git show --all
+# this one randomly displays the pass
+$ git show-ref
+# this one show some more refs and one of them is called secret, which we can see with git show *hash*
+$ cd ./git; cat packed-refs
+# this one too displays some more refs, the one called secred havint the pass
+
+pass for 31: 47e603bb428404d265f59c42920d81e5

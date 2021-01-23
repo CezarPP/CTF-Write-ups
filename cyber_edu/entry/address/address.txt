@@ -1,0 +1,3 @@
+On the main page we find a comment indicating an 'admin.php' file
+On the page domain/admin.php it is that I should be a local
+We can add the HTTP header 'X-Forwarded-For: 127.0.0.1' to the request made to this page to make it seem like the request came from localhost.

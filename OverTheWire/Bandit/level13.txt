@@ -1,0 +1,3 @@
+$ ssh -i sshkey.private bandit14@localhost
+
+pass: 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e

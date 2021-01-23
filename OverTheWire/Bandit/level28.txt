@@ -1,0 +1,17 @@
+# Bandit Notes
+Some notes for level29 of bandit.
+
+## credentials
+
+- username: bandit29
+- password: xxxxxxxxxx
+
+# we find this README.md
+$ git log
+# to see changes
+$ git show id
+# see change with that id
+
+
+pass for 29: bbc96594b4e001778eee9975372716b2
+

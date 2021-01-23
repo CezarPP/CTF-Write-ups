@@ -1,0 +1,8 @@
+Use file to find which type of archive it is.
+Then repeateadly unzip until you reach type ASCII text.
+$ tar -xvf
+$ gunzip
+$ bunzip2
+#to archive use tar -altceva, gzip, bzip2
+
+pass: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL

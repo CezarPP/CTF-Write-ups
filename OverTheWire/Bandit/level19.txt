@@ -1,0 +1,5 @@
+# we try to use the binary with the setuid bit set to gain access and read the file /etc/bandit_pass for level20
+# It says that it runs a command as another user
+$ ./bandit20-do cat /etc/bandit_pass/bandit20
+
+password for 20: GbKksEFF4yrVs6il55v6gwY5aVje5f0j

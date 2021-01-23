@@ -1,0 +1,10 @@
+# the cron in /etc/cron.d as usual call an exec in /usr/bin/cronjob_bandit24.sh
+# this file executes all programs in /var/spool/bandit24
+# simply place some code that will execute as bandit24 like
+
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/RUSKI24/b24_pass
+
+# make this exec by everyone, make /tmp/RUSKI24 writable by everyone (chmod 777 file)
+
+pass for 24: UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ

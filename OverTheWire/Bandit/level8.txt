@@ -1,0 +1,11 @@
+$ ssh bandit8@bandit.labs.overthewire.org -p 2220
+with password from level7
+
+$ uniq -u
+prints only unique lines (but only compares adjacent lines)
+$ sort 
+sorts
+$ sort data.txt | uniq -u
+solves
+pass: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+

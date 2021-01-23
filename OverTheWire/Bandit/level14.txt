@@ -1,0 +1,4 @@
+$ nc localhost 30000
+Then sumbit pass from previous level
+
+pass: BfMYroe26WYalil77FoDi9qh59eK5xNr

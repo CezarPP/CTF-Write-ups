@@ -1,0 +1,7 @@
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+with password from level0.pass
+We have the '-' file. '-' reffers to STDIN/STDOUT.
+To read it we have to specify the full path.
+cat ./-
+
+pass CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9

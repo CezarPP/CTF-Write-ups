@@ -1,0 +1,8 @@
+$ ssh -i bandit26.sshkey bandit26@localhost
+# we see that the shell of bandit26 is /usr/bin/showtext, which calls more ~/text.txt
+# this displays a character art
+# we make the terminal very small so that more will actually work on the graphic and let us execute a text editor(press v)  like vim which will let us read /etc/bandit_pass/bandit26 (:r /etc/bandit_pass/bandit26)
+
+# to get a shell we, in vim,  :set shell = /bin/bash and then :shell
+
+pass for 26: 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z

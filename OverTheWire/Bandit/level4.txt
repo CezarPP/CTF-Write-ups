@@ -1,0 +1,5 @@
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+with password from level3
+cd inhere/
+strings ./-file07
+pass: koReBOKuIDDepwhWk7jZC0RTdopnAYKh

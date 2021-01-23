@@ -1,0 +1,4 @@
+$ openssl s_client -connect localhost:30001
+SLL and TSL are like nc and telnet. With openssl, one can see everything that is happening.
+
+pass: cluFn7wTiGryunymYOu4RcffSxQluehd

@@ -1,0 +1,7 @@
+# the .bashrc file, what happens imediately after openning the terminal
+# to bypass that we could use ssh followed by some commands to be executed imediately after like
+$ sshpass -p `cat bandit17.pass` ssh bandit18@bandit.labs.overthewire.org -p 2220 "commands"
+# to get the password we have to read the read me
+$ sshpass -p `cat level17.pass` ssh bandit18@bandit.labs.overthewire.org -p 2220 "cd /home/bandit18; cat readme"
+
+password for 19: IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x

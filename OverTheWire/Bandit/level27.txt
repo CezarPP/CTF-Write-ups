@@ -1,0 +1,4 @@
+# clone the repo that they tell you about on the website
+$ git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+# the pass is in there
+pass for 28: 0ef186ac70e04ea33b4c1853d2526fa2

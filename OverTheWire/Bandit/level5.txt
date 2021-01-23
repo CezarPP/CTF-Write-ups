@@ -1,0 +1,8 @@
+$ ssh bandit5@bandit.labs.overthewire.org -p 2220
+$ cd inhere/
+$ find . -size 1033c
+c - for bytes
+file is ./maybehere07/.file2
+$ cat ./maybehere07/.file2 | tr -d " "
+removes spaces
+pass: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
