@@ -264,3 +264,57 @@ def main():
 if __name__=="__main__":
     main()
 ```
+
+# bazooka
+
+```bash
+kali@kali:~/Desktop/bazooka$ checksec ./pwn_bazooka_bazooka 
+[*] '/home/kali/Desktop/bazooka/pwn_bazooka_bazooka'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    No canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x400000)
+```
+No real protection. Let's see some disassembly.
+```c++
+void l00p(void)
+
+{
+  int iVar1;
+  char local_78 [112];
+  
+  puts("------  Welcome to Fake Bazooka Station -----\n");
+  printf("\nSecret message: ");
+  __isoc99_scanf(&DAT_00400989,local_78);
+  iVar1 = strcmp(local_78,"#!@{try_hard3r}");
+  if (iVar1 == 0) {
+    vuln();
+  }
+  else {
+    puts("Try Harder!!");
+    fake();
+  }
+  return;
+}
+```
+
+*__isoc99_scanf()* is a version of scanf.
+Reading something with scanf(), if the string si *#!@{try_hard3r}*, we go to the vulnerable function.
+```c++
+
+undefined8 vuln(void)
+
+{
+  undefined local_78 [112];
+  
+  puts("------  Welcome to Bazooka Station -----\n");
+  printf("Alterate data and crash");
+  printf("\nBefore to type, look around! \nMessage: ");
+  __isoc99_scanf(&DAT_00400989,local_78);
+  puts("Hacker alert!!!");
+  return 0;
+}
+```
+This is the vulnerable function, looks like we should do an overflow. The local variable is 122 bytes, so the rest should overflow the return address after an offset.
+64 bit exploit...will do later...
